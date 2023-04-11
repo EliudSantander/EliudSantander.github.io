@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG Soluciones</title>
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <h1>
+                <a class="logo_link" href="./index.html">
+                    SG Soluciones
+                </a>
+            </h1>
+            <div id="toggle_menu" class="toggle_menu">
+                <img src="./assets/images/bars-solid.svg" alt="Menú">
+            </div>
+            <ul class="main_menu" id="main-menu">
+                <li class="menu_item">
+                    <a class="header_link" href="./index.html" id="inicio-link">Inicio</a>
+                </li>
+                <li class="menu_item">
+                    <a class="header_link" href="#seccion2" id="projects-link">Proyectos</a>
+                </li>
+                <li class="menu_item">
+                    <a class="header_link" href="#seccion3" id="contact-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="divisor"></div>
+    </header>
+
+    <main>
+        <section class="principal">
+            <div class="main_text">
+                <div class="main_text_block">
+                    <p>Eliud Santander</p>
+                    <p>Ingeniero de Software</p>
+                </div>
+            </div>
+            <div class="main_container">
+                <img class="main_image" src="./assets/images/yopi.png" alt="Image">
+            </div>
+            <div class="barra_roja" id="seccion1"></div>
+        </section>
+
+        <section class="description">
+            <p>
+                Soy ingenieniero en tecnologia de software por la Universidad Autonoma de Nuevo Leon,
+                ampliamente interesado en Machine Learning e Inteligencia Artificial. Tengo experiencia
+                en desarrollo web con frameworks como Vue.js, utilizando HTML, CSS y Javascript. 
+            </p>
+        </section>
+
+        <section class="cards">
+            <div class="direction">
+                <div class="card">
+                    <div class="card_icon">
+                        <div class="icon code"></div>
+                    </div>
+                    <div class="card_text">
+                        <h3>Desarrollo Web</h3>
+                        <br/>
+                        <p>Creacion de sitios web con diseños responsivos.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_icon">
+                        <div class="icon app"></div>
+                    </div>
+                    <div class="card_text">
+                        <h3>Aplicaciones de escritorio</h3>
+                        <br/>
+                        <p>Creacion de aplicaciones que responden a tus necesidades.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_icon">
+                        <div class="icon ml"></div>
+                    </div>
+                    <div class="card_text">
+                        <h3>Machine Learning</h3>
+                        <br/>
+                        <p>Gran conocimiento en modelos de regresión y clasificación</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="section_title" id="seccion2">Proyectos</h2>
+            <div class="projects_container">
+                <div class="project_back">
+                    <img src="./assets/images/inmdelsol.jpg" class="project_img"></img>
+                    <div class="project_desc">
+                        <div class="project_text">
+                            <h3>Inmobiliaria del Sol</h3>
+                            <br/>
+                            <p>
+                                Inmobiliaria del Sol es una constructora ubicada La Paz, B.C.S.
+                                En el periodo enero 2022 - febrero 2022 ayude a Inmobiliaria del Sol a diseñar
+                                y construir un sitio web enfocado en su ultimo desarrollo Bella California.
+                                El framework utilizado para la pagina fue Vue.js haciendo uso de 
+                                HTML, CSS y Javascript.
+                            </p>
+                            <span class="proj_link">
+                                <a class="a_text" href="http://inmobiliariadelsol.com.mx/" target="_blank">
+                                    Visitar Sitio
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2 class="section_title" id="seccion3">Contacto</h2>
+            <form class="bloque_form" action="https://formsubmit.co/eliud.santander@gmail.com" method="POST">
+                <div class="inicio_form">
+                    <div class="text_form">
+                        <label class="etiqueta" for="inputName">Nombre:</label>
+                        <input class="short_form" id="inputName" type="text" placeholder="Nombre completo" required/>
+                    </div>
+                    <div class="text_form">
+                        <label class="etiqueta" for="inputEmail">Email:</label>
+                        <input class="short_form" id="inputEmail" type="email" name="email" placeholder="name@example.com" required/>
+                    </div>
+                </div>
+                <div class="mesage_box">
+                    <div class="mesage_box2">
+                        <label class="etiqueta" for="inputMessage">Message: </label>
+                        <textarea class="mesage_area" id="inputMessage" type="text" placeholder="Escriba su mensaje..." rows="4" required></textarea>
+                    </div>
+                </div>
+                <input type="hidden" name="_next" value="thankyou.html">
+                <button class="submit_btn" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+        
+    <footer>
+        <div class="footer_init">
+            <div class="foot_init_text">
+                <p>SG Soluciones</p>
+            </div>
+            <a class="footer_icon" href="#header">
+                <div class="row"></div>
+            </a>
+        </div>
+        <div class="foot_info">
+            <div class="foot_card1">
+                <p>Eliud Santander Gómez</p>
+                <p>Ingeniero en Tecnologia de Software</p>
+            </div>
+            <div class="foot_card2">
+                <a href="mailto:eliud.santander@gmail.com">
+                    <p>eliud.santander@gmail.com</p>
+                </a>
+                <span class="links_container">
+                    <a class="link_box" href=""><img class="link" src="./assets/images/linkedin.svg" alt="Linkedin"></a>
+                    <a class="link_box" href=""><img class="link" src="./assets/images/github.svg" alt="Linkedin"></a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
