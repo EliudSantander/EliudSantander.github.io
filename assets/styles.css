@@ -199,6 +199,7 @@ h1 {
     .main_image {
         width: 250px;
         height: auto;
+        border-radius: 18%;
     }
 
     .barra_roja {
