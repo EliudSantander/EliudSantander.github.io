@@ -22,7 +22,9 @@
 
 :root {
     --fondo-gris: #f1f1f1;
+    --fondo-base: #ffff5d;
     --fondo-blanco: white;
+    /* --second-color: #007fff; */
     --second-color: #CA0000;
     --third-color: #FFAE03;
     --titles: "Abeezee", "Popins", "Verdana";
@@ -234,19 +236,18 @@ h1 {
         align-items: start;
     }
 
-    /* .cards {
-        background-color: #f1f1f1;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: start;
-    } */
+    .cards {
+        padding: 50px 0;
+        background-color: var(--fondo-gris);
+    }
 
     .card {
         display: flex;
         width: 29%;
         margin: 0 10px;
         justify-content: center;
+        /* background-color: var(--fondo-blanco);
+        border-radius: 20px; */
     }
 
     .card_icon {
@@ -283,7 +284,7 @@ h1 {
 
     .projects {
         background-color: var(--fondo-gris);
-        padding: 90px 0;
+        padding: 20px 0;
         text-align: center;
     }
 
@@ -478,7 +479,7 @@ h1 {
         padding-left: 20px;
         margin: 0 8%;
         border-left: 1px solid var(--fondo-gris);
-        height: 130px;
+        height: 100px;
     }
 
     .foot_card2 a p {
@@ -503,19 +504,20 @@ h1 {
     }
 
     h1 {
-        text-align: center;
+        text-align: left;
         z-index: 2;
         background-color: white;
         width: 100%;
         height: 60px;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         position: fixed;
     }
 
     .logo_link {
         font-size: 0.9em;
+        margin: 0 10px;
     }
 
     .toggle_menu {
@@ -594,9 +596,10 @@ h1 {
     }
     
     .main_image {
-        width: 200px;
+        width: 170px;
         height: auto;
-        margin: 50px;
+        margin-top: 50px;
+        border-radius: 50px;
     }
 
     .barra_roja {
@@ -625,11 +628,16 @@ h1 {
         flex-direction: column;
     }
 
-    .cards {
+    /* .cards {
         background-color: var(--fondo-gris);
         display: flex;
         flex-direction: row;
         justify-content: center;
+    } */
+
+    .cards {
+        background-color: var(--fondo-gris);
+        padding-bottom: 40px;
     }
 
     .card {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliud Santander Gomez</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="./assets/normalize.css">
     <link rel="stylesheet" href="./assets/styles.css">
 </head>
@@ -13,7 +13,7 @@
         <nav>
             <h1>
                 <a class="logo_link" href="./index.html">
-                    Eliud Santander Gomez
+                    Portafolio
                 </a>
             </h1>
             <div id="toggle_menu" class="toggle_menu">
@@ -26,9 +26,9 @@
                 <li class="menu_item">
                     <a class="header_link" href="#seccion2" id="projects-link">Proyectos</a>
                 </li>
-                <li class="menu_item">
+                <!-- <li class="menu_item">
                     <a class="header_link" href="#seccion3" id="contact-link">Contacto</a>
-                </li>
+                </li> -->
             </ul>
         </nav>
         <div class="divisor"></div>
@@ -43,17 +43,112 @@
                 </div>
             </div>
             <div class="main_container">
-                <img class="main_image" src="./assets/images/yo.png" alt="Image">
+                <img class="main_image" src="./assets/images/yo.png" alt="Eliud Santander">
             </div>
-            <div class="barra_roja" id="seccion1"></div>
+            <!-- <div class="barra_roja" id="seccion1"></div> -->
         </section>
 
-        <section class="description">
-            <p>
-                Soy ingenieniero en tecnologia de software por la Universidad Autonoma de Nuevo Leon,
-                ampliamente interesado en Machine Learning e Inteligencia Artificial. Tengo experiencia
-                en desarrollo web con frameworks como Vue.js, utilizando HTML, CSS y Javascript. 
-            </p>
+        <section class="projects">
+            <h2 class="section_title" id="seccion2">Proyectos</h2>
+            <div class="projects_container">
+                <div class="project_back">
+                    <img src="./assets/images/storeit.png" class="project_img"></img>
+                    <div class="project_desc">
+                        <div class="project_text">
+                            <h3>Store-it!</h3>
+                            <br/>
+                            <p>
+                                Practica avanzada con React con uso de una estructura de archivos mas completa, 
+                                componentes propios e importados, patrones de diseño, conexion con una base de datos, 
+                                manejo de los datos del backend a traves de la interfaz, personalmente me siento contento 
+                                con el proyecto a pesar de que tiene algunos puntos de mejora.
+                            </p>
+                            <span class="proj_link">
+                                <a class="a_text" href="https://my-storage-wwo7.vercel.app/sign-in" target="_blank">
+                                    Visitar Sitio
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <div class="projects_container">
+                <div class="project_back">
+                    <img src="./assets/images/moviesearcher.png" class="project_img"></img>
+                    <div class="project_desc">
+                        <div class="project_text">
+                            <h3>Movie Searcher</h3>
+                            <br/>
+                            <p>
+                                Practica utilizando React, haciendo consumo de APIs con funcionalidades y 
+                                logica. Este es de mis primeros proyectos con React.
+                            </p>
+                            <span class="proj_link">
+                                <a class="a_text" href="https://movie-searcher-542dyd5ao-eliuds-projects-9a83d714.vercel.app/" target="_blank">
+                                    Visitar Sitio
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <div class="projects_container">
+                <div class="project_back">
+                    <img src="./assets/images/my-spotify.png" class="project_img"></img>
+                    <div class="project_desc">
+                        <div class="project_text">
+                            <h3>My Spotify in Data</h3>
+                            <br/>
+                            <p>
+                                Ejercicio de limpieza y analisis de datos con mi historial de reproducciones en la 
+                                plataforma de Spotify desde que la utilizo hace mas de 10 años. Incluye mis artistas 
+                                mas escuchados con sus canciones mas escuchadas por mi, y patrones de escucha semanales
+                                y a lo largo de los años.
+                            </p>
+                            <span class="proj_link">
+                                <a class="a_text" href="https://spotify-de-eliud-santander.onrender.com/" target="_blank">
+                                    Visitar Sitio
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <div class="projects_container">
+                <div class="project_back">
+                    <img src="./assets/images/inmdelsol.jpg" class="project_img"></img>
+                    <div class="project_desc">
+                        <div class="project_text">
+                            <h3>Inmobiliaria del Sol</h3>
+                            <br/>
+                            <p>
+                                Inmobiliaria del Sol es una constructora ubicada La Paz, B.C.S.
+                                En el periodo enero 2022 - febrero 2022 ayude a Inmobiliaria del Sol a diseñar
+                                y construir un sitio web enfocado en su ultimo desarrollo Bella California.
+                                El framework utilizado para la pagina fue Vue.js haciendo uso de 
+                                HTML, CSS y Javascript.
+                            </p>
+                            <span class="proj_link">
+                                <a class="a_text" href="http://inmobiliariadelsol.com.mx/" target="_blank">
+                                    Visitar Sitio
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="cards">
@@ -83,42 +178,15 @@
                         <div class="icon ml"></div>
                     </div>
                     <div class="card_text">
-                        <h3>Machine Learning</h3>
+                        <h3>Automatización</h3>
                         <br/>
-                        <p>Gran conocimiento en modelos de regresión y clasificación</p>
+                        <p>Experiencia en automatización de procesos y desarrollo de pipelines</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects">
-            <h2 class="section_title" id="seccion2">Proyectos</h2>
-            <div class="projects_container">
-                <div class="project_back">
-                    <img src="./assets/images/inmdelsol.jpg" class="project_img"></img>
-                    <div class="project_desc">
-                        <div class="project_text">
-                            <h3>Inmobiliaria del Sol</h3>
-                            <br/>
-                            <p>
-                                Inmobiliaria del Sol es una constructora ubicada La Paz, B.C.S.
-                                En el periodo enero 2022 - febrero 2022 ayude a Inmobiliaria del Sol a diseñar
-                                y construir un sitio web enfocado en su ultimo desarrollo Bella California.
-                                El framework utilizado para la pagina fue Vue.js haciendo uso de 
-                                HTML, CSS y Javascript.
-                            </p>
-                            <span class="proj_link">
-                                <a class="a_text" href="http://inmobiliariadelsol.com.mx/" target="_blank">
-                                    Visitar Sitio
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contacto">
+        <!-- <section class="contacto">
             <h2 class="section_title" id="seccion3">Contacto</h2>
             <form class="bloque_form" action="https://formsubmit.co/eliud.santander@gmail.com" method="'POST">
                 <div class="inicio_form">
@@ -137,10 +205,9 @@
                         <textarea class="mesage_area" id="inputMessage" placeholder="Escriba su mensaje..." rows="4" required></textarea>
                     </div>
                 </div>
-                <!-- <input type="hidden" name="_next" value="EliudSantander.github.io/thankyou.html"> -->
                 <button class="submit_btn" type="submit">Enviar</button>
             </form>
-        </section>
+        </section> -->
     </main>
         
     <footer>
@@ -156,12 +223,8 @@
             <div class="foot_card1">
                 <p>Eliud Santander Gómez</p>
                 <p>Ingeniero en Tecnologia de Software</p>
-                <p>14349932</p>
             </div>
             <div class="foot_card2">
-                <a href="mailto:eliud.santander@gmail.com">
-                    <p>eliud.santander@gmail.com</p>
-                </a>
                 <span class="links_container">
                     <a class="link_box" href="www.linkedin.com/in/eliud-santander-gomez"><img class="link" src="./assets/images/linkedin.svg" alt="Linkedin"></a>
                     <a class="link_box" href="https://github.com/EliudSantander"><img class="link" src="./assets/images/github.svg" alt="Linkedin"></a>
